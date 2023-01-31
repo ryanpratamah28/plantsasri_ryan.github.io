@@ -22,6 +22,15 @@
 
 <body>
     <style>
+
+        .slick-prev::before{
+           content: '';
+        }
+
+        .slick-next::before{
+           content: '';
+        }
+
         .slick-dots {
             bottom: -30px;
         }
@@ -92,13 +101,18 @@
 
     <div class="slider">
         <div class="container">
-            <div class="content-slider">
-                <h1>GRAB YOUR CHANCE RIGHT NOW!</h1>
-                <p>Do your best at every opportunity you have.<br>If you want a different change, start with yourself
-                    right
-                    now.</p>
-                <a href="" class="btn btn-success text-light">Get Started</a>
+            <div class="slide-banner">
+                <div class="content-slider">
+                    <h1>START YOUR BUSSINESS RIGHT</h1>
+                    <p>Realize your dream of becoming an exporter and importer with <b>Plantsasri Indonesia</b><br>The most complete and trusted legality plants export management service.</p>
+                </div>
+                <div class="content-slider">
+                    <h1>GRAB YOUR CHANCE RIGHT NOW!</h1>
+                    <p>Do your best at every opportunity you have.<br>
+                        If you want a different change, start with yourself right now.</p>
+                </div>
             </div>
+            <a href="" class="btn btn-success text-light">Get Started</a>
         </div>
     </div>
 
@@ -441,6 +455,15 @@
                         }
                     }
                 ]
+            });
+        });
+
+        $(document).ready(function (){
+            $('.slide-banner').slick({
+                slidesToShow : 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
             });
         });
 
