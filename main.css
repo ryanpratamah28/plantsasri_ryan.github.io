@@ -34,6 +34,7 @@ body::-webkit-scrollbar{
 
 .slider{
     background: url("img/bg-slider.png");
+    background-repeat: no-repeat;
     min-height: 600px;
     background-size: cover;
     background-position: center;
@@ -179,21 +180,61 @@ body::-webkit-scrollbar{
     height: 100%;
 }
 
-.footer-brand{
-    margin-right: 100px;
-}
-
-.container-footer{
+footer{
     background-color: var(--background-footer-color);
-    padding: 0px 110px 0 110px;
+    color: var(--white-color);
 }
 
-.container-footer .row{
-    padding: 5rem 0;
+footer .container{
+    max-width: 1300px;  
 }
 
-.footer .container-footer .row .footer-brand img{
+footer .container .footer-content .footer-brand img{
     width: 250px;
+    margin-bottom: 20px;
+}
+
+footer .container .footer-content .footer-desc p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .container .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 110px 0;
+}
+
+footer .container .footer-content .footer-item{
+    max-width: 300px;
+}
+
+footer .container .footer-content .footer-item h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer .container .footer-content .footer-item .menu{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .footer-content .footer-item .menu a{
+    text-decoration: none;
+    color: var(--white-color);
+    margin: 5px 0;
+}
+
+footer .container .footer-content .footer-item .no-telp p{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+footer .container .kopikanan{
+    text-align: center;
+    margin: 0 0;
+    padding: 15px 10px;
 }
 
 @media screen and (max-width: 1400px){
@@ -215,6 +256,9 @@ body::-webkit-scrollbar{
         margin-top: 60px;
     }
 
+    footer .container{
+        max-width: 1150px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -241,9 +285,28 @@ body::-webkit-scrollbar{
         height: 330px;
         margin-top: 0px;
     }    
+    
+    footer .container{
+        max-width: 955px;
+    }
 
-    .footer .container-footer .row .footer-brand img{
-        width: 150px;
+    footer .container .footer-content .footer-brand img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    footer .container .footer-content .footer-item{
+        max-width: 250px;
+    }
+
+    footer .container .footer-content .footer-item h1{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    footer .container .footer-content .footer-item .no-telp p{
+        font-size: 24px;
+        font-weight: 500;
     }
 }
 
@@ -272,7 +335,42 @@ body::-webkit-scrollbar{
     .g-maps{
         width: 720px;
         height: 600px;
-    }    
+    }
+
+    footer .container{
+        max-width: 725px;
+    }
+
+    footer .container .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .container .footer-content .footer-brand img{
+        width: 440px;
+        margin-bottom: 30px;
+    }
+
+    footer .container .footer-content .footer-desc p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    footer .container .footer-content .footer-item{
+        max-width: 750px;
+        margin-bottom: 50px;
+    }
+
+    footer .container .footer-content .footer-item h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    footer .container .footer-content .footer-item .no-telp p{
+        font-size: 28px;
+        font-weight: 500;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -296,6 +394,10 @@ body::-webkit-scrollbar{
     .g-maps{
         width: 540px;
         height: 600px;
+    }
+
+    footer .container{
+        max-width: 550px;
     }
 }
 
@@ -325,12 +427,23 @@ body::-webkit-scrollbar{
         height: 600px;
     }
 
+    footer .container .footer-content .footer-brand img{
+        width: 250px;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 575px){
     .g-maps{
         width: 410px;
         height: 500px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .g-maps{
+        width: 340px;
+        height: 300px;
     }
 }
 

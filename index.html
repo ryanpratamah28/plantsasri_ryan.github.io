@@ -7,16 +7,46 @@
     <link rel="icon" type="image/x-icon" href="img/plantsasri-icon.png">
     <title>Plantsasri</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 </head>
 
 <body>
+    <style>
+        .slick-dots {
+            bottom: -30px;
+        }
+
+        .slick-dots li button:before {
+            font-size: 12px;
+            color: #a6abb1d9;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            opacity: 1;
+        }
+
+        .slick-dots li.slick-active button:before {
+            color: #2db878;
+        }
+
+        .slider:not(:hover) .slick-dots {
+            opacity: 0;
+        }
+
+        .slick-arrow,
+        .slick-dots {
+            transition: opacity 0.5s ease-out;
+        }
+    </style>
+
     <nav class="navbar navbar-expand-lg bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/plantsasri-icon.png"></a>
@@ -46,8 +76,10 @@
                 <div class="clip-path">
 
                     <div class="btn-nav">
-                        <a href="" class="btn d-inline text-dark" style="font-weight: 600;"><img src="img/Inggris-icon.png" width="25" height="15"> ENG</a>
-                        <a href="" class="btn d-inline text-dark" style="font-weight: 600;"><img src="img/Indonesia-icon.png" width="25" height="15"> ID</a>
+                        <a href="" class="btn d-inline text-dark" style="font-weight: 600;"><img
+                                src="img/Inggris-icon.png" width="25" height="15"> ENG</a>
+                        <a href="" class="btn d-inline text-dark" style="font-weight: 600;"><img
+                                src="img/Indonesia-icon.png" width="25" height="15"> ID</a>
                         <a href="" class="btn btn-dark text-light" style="font-weight: 400;">Get Started</a>
                     </div>
 
@@ -62,47 +94,49 @@
         <div class="container">
             <div class="content-slider">
                 <h1>GRAB YOUR CHANCE RIGHT NOW!</h1>
-                <p>Do your best at every opportunity you have.<br>If you want a different change, start with yourself right
+                <p>Do your best at every opportunity you have.<br>If you want a different change, start with yourself
+                    right
                     now.</p>
                 <a href="" class="btn btn-success text-light">Get Started</a>
             </div>
         </div>
-    </div> 
+    </div>
 
     <section class="main-content">
         <div class="container">
             <div class="about-us">
-                    <div class="row">
-                        <div class="about-img col-xxl-7 col-xl-6 col-lg-7 ">
-                            <img src="img/about-img.png" width="630">
-                        </div>
-                        <div class="about-content col-xxl-5 col-xl-6 col-lg-5">
-                            <h1>About Plantsasri</h1>
-                            <p>Plantsasri Indonesia is one of the exporters of agricultural products, especially ornamental
-                                plants in Indonesia.<br><br>
-                                Plantsasri Indonesia also cares about all Indonesian farmers. Through this website
-                                development program, we provide access to farmers to be able to reach global markets and expand their
-                                business reach.<br><br>
-                                Plantsasri Indonesia also has an ornamental plant marketplace that can be used to send and
-                                buy
-                                ornamental plants and send them wherever they want.
-                            </p>
-    
-                            <div class="about-stat d-flex justify-content-between">
-                                <div class="stat">
-                                    <h4>5</h4>
-                                    <p>Years Of Experience</p>
-                                </div>
-                                <div class="stat">
-                                    <h4>233</h4>
-                                    <p>Country Of Destination</p>
-                                </div>
-                                <div class="stat">
-                                    <h4>8</h4>
-                                    <p>Plant Entrepreneur</p>
-                                </div>
+                <div class="row">
+                    <div class="about-img col-xxl-7 col-xl-6 col-lg-7 ">
+                        <img src="img/about-img.png" width="630">
+                    </div>
+                    <div class="about-content col-xxl-5 col-xl-6 col-lg-5">
+                        <h1>About Plantsasri</h1>
+                        <p>Plantsasri Indonesia is one of the exporters of agricultural products, especially ornamental
+                            plants in Indonesia.<br><br>
+                            Plantsasri Indonesia also cares about all Indonesian farmers. Through this website
+                            development program, we provide access to farmers to be able to reach global markets and
+                            expand their
+                            business reach.<br><br>
+                            Plantsasri Indonesia also has an ornamental plant marketplace that can be used to send and
+                            buy
+                            ornamental plants and send them wherever they want.
+                        </p>
+
+                        <div class="about-stat d-flex justify-content-between">
+                            <div class="stat">
+                                <h4>5</h4>
+                                <p>Years Of Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h4>233</h4>
+                                <p>Country Of Destination</p>
+                            </div>
+                            <div class="stat">
+                                <h4>8</h4>
+                                <p>Plant Entrepreneur</p>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
 
@@ -110,7 +144,7 @@
                 <div class="title text-center">
                     <h1>Our Service</h1>
                 </div>
-    
+
                 <div class="content d-flex">
                     <div class="row">
                         <div class="box col-md-4">
@@ -122,7 +156,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="box col-md-4">
                             <div class="content-box">
                                 <img src="img/link-icon-2.png">
@@ -132,7 +166,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="box col-md-4">
                             <div class="content-box">
                                 <img src="img/link-icon-3.png">
@@ -154,13 +188,110 @@
                     <div class="container-text px-5">
                         <h3>FIRST IN INDONESIA</h3>
                         <h1>TRACK YOUR PLANTS LICENSE</h1>
-                        <p>The License Tracking feature is used to monitor the process of your Phytosanitary Certificate.
+                        <p>The License Tracking feature is used to monitor the process of your Phytosanitary
+                            Certificate.
                             You can monitor your licensing process whenever and wherever you are.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="partnership text-center">
+            <!-- <div class="container-slider">
+                <h1 class="text-center">Country Slider</h1>
+                <p class="text-center">
+                    Di mulai dengan doa, dan di akhiri dengan keberhasilan
+                </p>
+                
+        
+                <div class="country mb-3">
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/Belanda.png" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/Inggris.png" alt="Image 2">
+                        </a>
+                    </div>
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/New Zealand.png" alt="Image 4">
+                        </a>
+                    </div>
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/New Zealand.png" alt="Image 3">
+                        </a>
+                    </div>
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/Belanda.png" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="px-2">
+                        <a href="#">
+                            <img src="img/Inggris.png" alt="Image 5">
+                        </a>
+                    </div>
+                </div>
+            </div>   -->
+
+            <div class="testimonial text-center">
+                <h1>Testimonial</h1>
+
+                <div class="testimoni">
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-1.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-2.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-3.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-1.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-2.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                    <div class="card-testi">
+                        <div class="content-card d-flex flex-column mt-5">
+                            <img src="img/pp-3.png" width="54" style="margin: auto;">
+                            <p class="mt-4" style="font-size: 16px;">You can take care of the documents you need for
+                                licensing quickly and easily</p>
+                            <p class="text-success" style="font-weight: 600;font-size: 16px;">Ryan Pratama Hidayat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partnership text-center mt-5">
                 <h1>Partnership</h1>
 
                 <div class="wrap-partnership">
@@ -180,7 +311,8 @@
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12 col-xs-12">
                         <h1>Contact Us</h1>
-                        <p>If you have questions about licensing suggestions or complaints, please don't hesitate to contact
+                        <p>If you have questions about licensing suggestions or complaints, please don't hesitate to
+                            contact
                             us.
                             We will be very happy to serve your request as soon as possible.</p>
                         <form>
@@ -213,146 +345,107 @@
             </div>
         </div>
 
-        
-        <div class="footer text-light">
-            <footer class="container-footer">
-                <div class="row">
-                    <div class="footer-brand col-6 col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-sm-12 mb-3">
-                        <img src="img/Logo_Plantsasri.png">
-                        <p class="mt-3">We help with licensing for plant entrepreneurs who want to send their plants to
-                            international markets.
-                        </p>
-    
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-item">
+                        <div class="footer-brand">
+                            <img src="img/Logo_Plantsasri.png">
+                        </div>
+                        <div class="footer-desc">
+                            <p>We help with licensing for plant entrepreneurs who want to send their plants to international markets.</p>
+                        </div>
                         <div class="social-media">
                             <a href="" class="btn btn-success" style="border-radius: 50%;height: 45px;padding-top: 10px;"><i class="fa-xl fa-brands fa-instagram"></i></a>
                             <a href="" class="btn btn-success" style="border-radius: 50%;height: 45px;padding-top: 10px;"><i class="fa-xl fa-brands fa-facebook"></i></a>
                         </div>
                     </div>
-                    <div class="col-6 col-xxl-2 col-xl-2 col-lg-2 col-md-4 mb-3">
-                        <h5>Useful Links</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About Plantasari</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact Us</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Get Started</a></li>
-                        </ul>
+
+                    <div class="footer-item">
+                        <h1>Useful Links</h1>
+                        <div class="menu">
+                            <a href="">Home</a>
+                            <a href="">About Plantsasri</a>
+                            <a href="">Contact Us</a>
+                            <a href="">Faq</a>
+                            <a href="">Get Started</a>
+                        </div>
                     </div>
-    
-                    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 mb-3">
-                        <h5>Many Destination</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Many Destination</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Easy Permission</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Best Services</a></li>
-                        </ul>
+
+                    <div class="footer-item">
+                        <h1>Many Destination</h1>
+                        <div class="menu">
+                            <a href="">Many Destination</a>
+                            <a href="">Easy Destination</a>
+                            <a href="">Best Services</a>
+                        </div>
                     </div>
-    
-                    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 mb-3">
-                        <h5>Got Questions</h5>
-                        <ul class="nav flex-column">
-                            <h3>+6285156405248</h3>
-                            <h6>GARDEN No.13 Jalan Cijahe, Curug Mekar - Bogor Barat, Bogor, Jawa Barat</h6>
-                        </ul>
+
+                    <div class="footer-item">
+                        <h1>Got Questions</h1>
+                        <div class="no-telp">
+                            <p>+6285156405248</p>
+                        </div>
+                        <p>GARDEN No.13 Jalan Cijahe, Curug Mekar - Bogor Barat, Bogor, Jawa Barat</p>
                     </div>
                 </div>
-    
-                <div class="footer-bottom text-center">
-                    <hr>
-                    <p>&copy;2023 Plantsasri Indonesia</p>
-                    <br>
-                </div>
-            </footer>
-        </div>
+                <hr>
+                <p class="kopikanan">&copy; 2023 Plantsasri Indonesia</p>
+            </div>
+        </footer>
     </section>
 
-    
-
-    
-
-    <!-- <div class="container">
-        <h1 class="text-center">Country Slider</h1>
-        <p class="text-center">
-            Di mulai dengan doa, dan di akhiri dengan keberhasilan
-        </p>
-        <div class="slider mb-3">
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Belanda.png" alt="Image 1">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="text-black fs-3">Belanda</h2>
-                </div>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Inggris.png" alt="Image 2">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/New Zealand.png" alt="Image 4">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/New Zealand.png" alt="Image 3">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Belanda.png" alt="Image 1">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Inggris.png" alt="Image 5">
-                </a>
-            </div>
-        </div>
-
-        <div class="country mb-3">
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Belanda.png" alt="Image 1">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Inggris.png" alt="Image 2">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/New Zealand.png" alt="Image 4">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/New Zealand.png" alt="Image 3">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Belanda.png" alt="Image 1">
-                </a>
-            </div>
-            <div class="px-2">
-                <a href="#">
-                    <img src="img/Inggris.png" alt="Image 5">
-                </a>
-            </div>
-        </div>
-    </div> -->
-    
     <script src="main.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
 
     <script>
+        $(document).ready(function () {
+            $('.testimoni').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                responsive: [{
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        });
+
         // $(document).ready(function () {
-        //     $('.slider').slick({
+        //     $('.europe').slick({
         //         slidesToShow: 3,
         //         slidesToScroll: 1,
         //         autoplay: true,
@@ -370,4 +463,5 @@
         // });
     </script>
 </body>
+
 </html>
